@@ -12,7 +12,7 @@
 
 COCO 사전학습 모델에는 손 / 제스처 클래스가 없어서 (person 만 있음) 새로 학습해야 하는 부류.
 
-![tracking](results/tracking.gif)
+![tracking](results/tracking.mp4)
 
 **웹캠 데모** : https://difficcd.github.io/YOLO-3class-tracking/
 (카메라 허용하면 브라우저에서 바로 돌아감, yolo11n onnx + onnxruntime-web. 영상은 서버로 안 나감)
