@@ -5,3 +5,4 @@ __pycache__/
 *.pt
 !weights/best.pt
 src_video/
+.playwright-mcp/
