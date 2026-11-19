@@ -14,6 +14,9 @@ COCO 사전학습 모델에는 손 / 제스처 클래스가 없어서 (person �
 
 ![tracking](results/tracking.gif)
 
+**웹캠 데모** : https://difficcd.github.io/YOLO-3class-tracking/
+(카메라 허용하면 브라우저에서 바로 돌아감, yolo11n onnx + onnxruntime-web. 영상은 서버로 안 나감)
+
 ## Dataset
 
 - [HaGRID](https://github.com/hukenovs/hagrid) 의 Kaggle 샘플 [hagrid-sample-30k-384p](https://www.kaggle.com/datasets/innominate817/hagrid-sample-30k-384p) 에서 3개 클래스만 사용 (CC BY-SA 4.0)
@@ -95,4 +98,5 @@ track_video.py         detect + track + trajectory
 plot_trajectory.py     trajectory plot
 weights/               yolo11s_best.pt, yolo11n_best.pt
 results/               tracking video, 학습 그래프, confusion matrix
+docs/                  webcam demo (github pages)
 ```
