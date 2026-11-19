@@ -1,0 +1,7 @@
+datasets/
+runs/
+*.zip
+__pycache__/
+*.pt
+!weights/best.pt
+src_video/
