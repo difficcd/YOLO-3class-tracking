@@ -3,6 +3,6 @@ runs/
 *.zip
 __pycache__/
 *.pt
-!weights/best.pt
+!weights/*.pt
 src_video/
 .playwright-mcp/
