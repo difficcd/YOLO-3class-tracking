@@ -12,10 +12,11 @@
 
 COCO 사전학습 모델에는 손 / 제스처 클래스가 없어서 (person 만 있음) 새로 학습해야 하는 부류.
 
-![tracking](results/tracking.mp4)
+![webcam demo](results/webcam_demo.gif)
 
 **웹캠 데모** : https://difficcd.github.io/YOLO-3class-tracking/
 (카메라 허용하면 브라우저에서 바로 돌아감, yolo11n onnx + onnxruntime-web. 영상은 서버로 안 나감)
+위 gif 는 데모 페이지 직접 켜서 녹화한 것 → 원본 [results/tracking.mp4](results/tracking.mp4)
 
 ## Dataset
 
@@ -67,7 +68,9 @@ mAP50 은 둘 다 거의 꽉 차서 차이가 없고, 박스를 얼마나 딱 �
 - 박스 중심점 궤적을 프레임마다 선으로 그림
 - 궤적은 csv 로 따로 저장 → [plot_trajectory.py](plot_trajectory.py) 로 plot
 
-결과 영상: [results/tracking.mp4](results/tracking.mp4) (5.5s)
+결과 영상: [results/tracking_example.mp4](results/tracking_example.mp4) (5.5s)
+
+![tracking](results/tracking.gif)
 
 ![trajectory](results/trajectory.png)
 
